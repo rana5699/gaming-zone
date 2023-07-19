@@ -113,6 +113,7 @@ nav ul li{
     font-size: 18px;
     font-weight: 500;
     margin-right: 30px;
+    cursor: pointer;
 }
 nav ul li .fa-youtube{
     width: 39.916px;
