@@ -15,5 +15,8 @@
     /* menu-bar-container END */
 
     /* banner-section START here */
+    .banner-test{
+        grid-template-columns: 1fr;
+    }
     /* banner-section END here */
 }

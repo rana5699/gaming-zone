@@ -138,43 +138,40 @@ nav ul li .fa-youtube{
 .banner-test{
     width: 100%;
     height: 500px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: flex-end;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .banner-heading{
-    height: 100%;
+    width: 50%;
     background-image: url('images/Group\ 14.png');
     background-position: center;
     background-size: cover;
-    padding: 20px;
+    height: 100%;
 }
 .heading-text{
-    margin-top: 60px;
-    margin-left: 100px;
+    width: 80%;
+    margin: 50px auto;
 }
 .banner-photo{
+    width: 50%;
     height: 100%;
 }
 .link{
     display: flex;
-    text-align: center;
     align-items: center;
     margin-bottom: 15px;
 }
 .img-1{
     width: 30px;
     height: 30px;
-    margin-right: 10px;
-    text-align: center;
 }
 .banner-dp{
     width: 100%;
     height: 100%;
 }
 .clear-fix::after{
-    content: '';
+    content: "";
     clear: both;
     display: table;
 }
@@ -191,7 +188,7 @@ nav ul li .fa-youtube{
 .banner-2-aontainer{
     width: 80%;
     height: 100%;
-    margin: 142px auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
