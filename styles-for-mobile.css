@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+    /* menu-bar-container START */
     .menu-bar-container{
         flex-direction: column;
         padding: 110px 0px;
@@ -11,4 +12,28 @@
     nav ul li{
         margin-top: 20px;
     }
+    /* menu-bar-container END */
+
+    /* banner-section START here */
+    .banner-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 500px
+    }
+    .banner-text{
+        top: 0;
+    }
+    .banner-image{
+        width: 100%;
+        background-color: #fff;
+    }
+    .link p{
+        margin: 0;
+    }
+    .link span{
+        margin: 0;
+    }
+    /* banner-section END here */
 }
