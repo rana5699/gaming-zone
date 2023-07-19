@@ -7,6 +7,7 @@
 }
 .common-h1{
     color: #0B0223;
+    margin: 20px 80px 20px 0px;
     font-size: 35px;
     font-weight: 600;
     text-transform: uppercase;
@@ -17,13 +18,19 @@
     font-weight: 600;
 }
 .goat{
-    font-size: 45px;
+    font-size: 55px;
+    margin: 20px 140px 20px 0px;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
 }
 .primary-btn-1{
     display: inline-flex;
@@ -32,7 +39,6 @@
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    gap: 10px;
     border: 0;
     border-radius: 48px;
     margin-bottom: 5px;
@@ -217,7 +223,7 @@ nav ul li .fa-youtube{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    text-align: center;
+    text-align: left;
     gap: 10px;
 }
 .online-games-container{
@@ -252,6 +258,7 @@ nav ul li .fa-youtube{
 .container:hover .overflow{
     opacity: 0.8;
     border: 1px solid #F948B2 ;
+    
 }
 
 .container img{
@@ -320,9 +327,6 @@ nav ul li .fa-youtube{
     width: 90%;
     height: 90%;
 }
-
-
-
 /* play-section END here */
 
 /* comments-section START here */
@@ -337,7 +341,6 @@ nav ul li .fa-youtube{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-grow: 1;
     gap: 20px;
     align-items: center;
 }
@@ -356,6 +359,7 @@ nav ul li .fa-youtube{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 .comment-box img{
     width: 50px;
@@ -368,3 +372,100 @@ nav ul li .fa-youtube{
     font-weight: 600;
 }
 /* comments-section END here */
+
+/* Footer Section START here */
+#footer{
+    width: 100%;
+    height: 550px;
+    background: #0B0223;
+    text-align: center;
+    padding: 100px;
+    margin-top: 50px;
+}
+.footer{
+    width: 80%;
+    margin: 30px auto;
+    min-height: 40px;
+}
+.footer-logo{
+    margin: 0% auto;
+    margin-left: 40%;
+}
+.footer-contact ul{
+    display: inline-flex;
+    gap: 60px;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.footer-contact ul li{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.footer-icon ul{
+    margin-top: 50px;
+    display: inline-flex;
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+}
+.footer-icon ul li{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.footer-btn{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+.fa-youtube{
+    color: #CD201F;
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-instagram{
+    color: #fccc63;
+}
+.footer-privecy ul{
+    margin-top: 50px;
+    list-style: none;
+    display: inline-flex;
+    color: #fff;
+    gap: 60px;
+}
+.footer-privecy ul li{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.copy-right{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+/* Footer Section END here */
